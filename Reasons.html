@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>92 Reasons I Love You</title>
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+</head>
+<body>
+<header>
+  <h1 class="lang-en">❤️ 92 Reasons I Love You</h1>
+  <h1 class="lang-ru" style="display:none;">❤️ 92 причины, почему я люблю тебя</h1>
+  <div class="lang-toggle">
+    🌎 <button onclick="setLanguage('en')">EN</button> | 🇷🇺 <button onclick="setLanguage('ru')">RU</button>
+  </div>
+</header>
+<main>
+<ol>
+<li class="lang-en" onclick="createHeart('💖')">You make me laugh every day 😄</li>
+<li class="lang-ru" style="display:none" onclick="createHeart('💖')">Ты заставляешь меня смеяться каждый день 😄</li>
+<li class="lang-en" onclick="createHeart('💖')">Your messages brighten my day 💌</li>
+<li class="lang-ru" style="display:none" onclick="createHeart('💖')">Твои сообщения делают мой день ярче 💌</li>
+<li class="lang-en" onclick="createHeart('💖')">I love our silly jokes 🥰</li>
+<li class="lang-ru" style="display:none" onclick="createHeart('💖')">Мне нравятся наши глупые шутки 🥰</li>
+<li class="lang-en" onclick="createHeart('💖')">Your kind heart ❤️</li>
+<li class="lang-ru" style="display:none" onclick="createHeart('💖')">Твоё доброе сердце ❤️</li>
+<li class="lang-en" onclick="createHeart('💖')">Being with you in spirit, even far away 🌍</li>
+<li class="lang-ru" style="display:none" onclick="createHeart('💖')">Быть с тобой мысленно, даже на расстоянии 🌍</li>
+<li class="lang-en" onclick="createHeart('💖')">You remember little things about me ✨</li>
+<li class="lang-ru" style="display:none" onclick="createHeart('💖')">Ты помнишь обо мне даже мелочи ✨</li>
+<li class="lang-en" onclick="createHeart('💖')">You always make me feel special 💖</li>
+<li class="lang-ru" style="display:none" onclick="createHeart('💖')">Ты всегда заставляешь меня чувствовать себя особенной 💖</li>
+<li class="lang-en" onclick="createHeart('💖')">Our chats make my heart happy 💌</li>
+<li class="lang-ru" style="display:none" onclick="createHeart('💖')">Наши переписки делают моё сердце счастливым 💌</li>
+<li class="lang-en" onclick="createHeart('💖')">I love your smile 😄</li>
+<li class="lang-ru" style="display:none" onclick="createHeart('💖')">Я люблю твою улыбку 😄</li>
+<li class="lang-en" onclick="createHeart('💖')">I love your voice 🎵</li>
+<li class="lang-ru" style="display:none" onclick="createHeart('💖')">Я люблю твой голос 🎵</li>
+<li class="lang-en" onclick="createHeart('💖')">You always cheer me up 🌸</li>
+<li class="lang-ru" style="display:none" onclick="createHeart('💖')">Ты всегда поднимаешь мне настроение 🌸</li>
+<li class="lang-en" onclick="createHeart('💖')">I love the way you call me cute names 🥰</li>
+<li class="lang-ru" style="display:none" onclick="createHeart('💖')">Мне нравится, как ты называешь меня милыми именами 🥰</li>
+<li class="lang-en" onclick="createHeart('💖')">You support my dreams ✨</li>
+<li class="lang-ru" style="display:none" onclick="createHeart('💖')">Ты поддерживаешь мои мечты ✨</li>
+<li class="lang-en" onclick="createHeart('💖')">I feel safe with you ❤️</li>
+<li class="lang-ru" style="display:none" onclick="createHeart('💖')">Я чувствую себя в безопасности рядом с тобой ❤️</li>
+<li class="lang-en" onclick="createHeart('💖')">You make every day brighter 🌞</li>
+<li class="lang-ru" style="display:none" onclick="createHeart('💖')">Ты делаешь каждый день ярче 🌞</li>
+<li class="lang-en" onclick="createHeart('💖')">You’re my favorite person 💖</li>
+<li class="lang-ru" style="display:none" onclick="createHeart('💖')">Ты мой любимый человек 💖</li>
+<li class="lang-en" onclick="createHeart('💖')">I love talking to you 💬</li>
+<li class="lang-ru" style="display:none" onclick="createHeart('💖')">Мне нравится разговаривать с тобой 💬</li>
+<li class="lang-en" onclick="createHeart('💖')">You always make me smile 😊</li>
+<li class="lang-ru" style="display:none" onclick="createHeart('💖')">Ты всегда заставляешь меня улыбаться 😊</li>
+<li class="lang-en" onclick="createHeart('💖')">You’re thoughtful and caring 🌸</li>
+<li class="lang-ru" style="display:none" onclick="createHeart('💖')">Ты внимательный и заботливый 🌸</li>
+<li class="lang-en" onclick="createHeart('💖')">You brighten my darkest days 🌟</li>
+<li class="lang-ru" style="display:none" onclick="createHeart('💖')">Ты освещаешь мои самые темные дни 🌟</li>
+<li class="lang-en" onclick="createHeart('💖')">I love dreaming about our future together 🌈</li>
+<li class="lang-ru" style="display:none" onclick="createHeart('💖')">Мне нравится мечтать о нашем будущем вместе 🌈</li>
+<li class="lang-en" onclick="createHeart('💖')">Your laugh is contagious 😆</li>
+<li class="lang-ru" style="display:none" onclick="createHeart('💖')">Твой смех заразительный 😆</li>
+<li class="lang-en" onclick="createHeart('💖')">You are my sunshine 🌞</li>
+<li class="lang-ru" style="display:none" onclick="createHeart('💖')">Ты мое солнышко 🌞</li>
+<li class="lang-en" onclick="createHeart('💖')">I love your playful side 🎉</li>
+<li class="lang-ru" style="display:none" onclick="createHeart('💖')">Мне нравится твоя игривая сторона 🎉</li>
+<li class="lang-en" onclick="createHeart('💖')">You always know how to cheer me up 💖</li>
+<li class="lang-ru" style="display:none" onclick="createHeart('💖')">Ты всегда знаешь, как поднять мне настроение 💖</li>
+<li class="lang-en" onclick="createHeart('💖')">You inspire me to be better ✨</li>
+<li class="lang-ru" style="display:none" onclick="createHeart('💖')">Ты вдохновляешь меня быть лучше ✨</li>
+<li class="lang-en" onclick="createHeart('💖')">I love sharing my thoughts with you 📝</li>
+<li class="lang-ru" style="display:none" onclick="createHeart('💖')">Мне нравится делиться с тобой мыслями 📝</li>
+<li class="lang-en" onclick="createHeart('💖')">You make me feel loved ❤️</li>
+<li class="lang-ru" style="display:none" onclick="createHeart('💖')">Ты заставляешь меня чувствовать себя любимой ❤️</li>
+<li class="lang-en" onclick="createHeart('💖')">I love our inside jokes 🤭</li>
+<li class="lang-ru" style="display:none" onclick="createHeart('💖')">Мне нравятся наши шутки только для нас 🤭</li>
+<li class="lang-en" onclick="createHeart('💖')">You’re my best friend 💕</li>
+<li class="lang-ru" style="display:none" onclick="createHeart('💖')">Ты мой лучший друг 💕</li>
+<li class="lang-en" onclick="createHeart('💖')">Your hugs (virtual or real) make me happy 🤗</li>
+<li class="lang-ru" style="display:none" onclick="createHeart('💖')">Твои объятия (виртуальные или настоящие) делают меня счастливой 🤗</li>
+<li class="lang-en" onclick="createHeart('💖')">You always listen to me 👂</li>
+<li class="lang-ru" style="display:none" onclick="createHeart('💖')">Ты всегда меня слушаешь 👂</li>
+<li class="lang-en" onclick="createHeart('💖')">I love our long-distance adventures 💌</li>
+<li class="lang-ru" style="display:none" onclick="createHeart('💖')">Мне нравятся наши приключения на расстоянии 💌</li>
+<li class="lang-en" onclick="createHeart('💖')">You are patient and kind 🌷</li>
+<li class="lang-ru" style="display:none" onclick="createHeart('💖')">Ты терпеливый и добрый 🌷</li>
+<li class="lang-en" onclick="createHeart('💖')">You make ordinary moments magical ✨</li>
+<li class="lang-ru" style="display:none" onclick="createHeart('💖')">Ты превращаешь обычные моменты в волшебные ✨</li>
+<li class="lang-en" onclick="createHeart('💖')">I love your cute notes 📝</li>
+<li class="lang-ru" style="display:none" onclick="createHeart('💖')">Мне нравятся твои милые записки 📝</li>
+<li class="lang-en" onclick="createHeart('💖')">You’re my Mishka 💕</li>
+<li class="lang-ru" style="display:none" onclick="createHeart('💖')">Ты мой Мишка 💕</li>
+<li class="lang-en" onclick="createHeart('💖')">You make me feel safe 💖</li>
+<li class="lang-ru" style="display:none" onclick="createHeart('💖')">Ты заставляешь меня чувствовать себя в безопасности 💖</li>
+<li class="lang-en" onclick="createHeart('💖')">I love your creativity 🎨</li>
+<li class="lang-ru" style="display:none" onclick="createHeart('💖')">Мне нравится твоя креативность 🎨</li>
+<li class="lang-en" onclick="createHeart('💖')">You brighten every call 🌟</li>
+<li class="lang-ru" style="display:none" onclick="createHeart('💖')">Ты освещаешь каждый звонок 🌟</li>
+<li class="lang-en" onclick="createHeart('💖')">I love imagining our future together 🌈</li>
+<li class="lang-ru" style="display:none" onclick="createHeart('💖')">Мне нравится представлять наше будущее вместе 🌈</li>
+<li class="lang-en" onclick="createHeart('💖')">You make me feel loved from afar 💌</li>
+<li class="lang-ru" style="display:none" onclick="createHeart('💖')">Ты заставляешь меня чувствовать себя любимой даже на расстоянии 💌</li>
+<li class="lang-en" onclick="createHeart('💖')">I love your playful texts 🐰</li>
+<li class="lang-ru" style="display:none" onclick="createHeart('💖')">Мне нравятся твои игривые сообщения 🐰</li>
+<li class="lang-en" onclick="createHeart('💖')">Your patience amazes me ✨</li>
+<li class="lang-ru" style="display:none" onclick="createHeart('💖')">Твоё терпение меня удивляет ✨</li>
+<li class="lang-en" onclick="createHeart('💖')">I love how thoughtful you are 💝</li>
+<li class="lang-ru" style="display:none" onclick="createHeart('💖')">Мне нравится, как ты внимателен 💝</li>
+<li class="lang-en" onclick="createHeart('💖')">You make my heart flutter 💓</li>
+<li class="lang-ru" style="display:none" onclick="createHeart('💖')">Ты заставляешь моё сердце трепетать 💓</li>
+<li class="lang-en" onclick="createHeart('💖')">I love your dedication 🌟</li>
+<li class="lang-ru" style="display:none" onclick="createHeart('💖')">Мне нравится твоя преданность 🌟</li>
+<li class="lang-en" onclick="createHeart('💖')">You make me feel special every day 💖</li>
+<li class="lang-ru" style="display:none" onclick="createHeart('💖')">Ты заставляешь меня чувствовать себя особенной каждый день 💖</li>
+<li class="lang-en" onclick="createHeart('💖')">I love sharing my dreams with you 🌈</li>
+<li class="lang-ru" style="display:none" onclick="createHeart('💖')">Мне нравится делиться с тобой своими мечтами 🌈</li>
+<li class="lang-en" onclick="createHeart('💖')">You are always on my mind 💌</li>
+<li class="lang-ru" style="display:none" onclick="createHeart('💖')">Ты всегда в моих мыслях 💌</li>
+<li class="lang-en" onclick="createHeart('💖')">You make long-distance feel short ❤️</li>
+<li class="lang-ru" style="display:none" onclick="createHeart('💖')">Ты заставляешь расстояние казаться коротким ❤️</li>
+<li class="lang-en" onclick="createHeart('💖')">Your laugh lights up my day 😆</li>
+<li class="lang-ru" style="display:none" onclick="createHeart('💖')">Твой смех освещает мой день 😆</li>
+<li class="lang-en" onclick="createHeart('💖')">You are my Mishka forever 💕</li>
+<li class="lang-ru" style="display:none" onclick="createHeart('💖')">Ты мой Мишка навсегда 💕</li>
+<li class="lang-en" onclick="createHeart('💖')">I love every memory with you 🥰</li>
+<li class="lang-ru" style="display:none" onclick="createHeart('💖')">Я люблю каждое воспоминание с тобой 🥰</li>
+<li class="lang-en" onclick="createHeart('💖')">You make my heart smile 💖</li>
+<li class="lang-ru" style="display:none" onclick="createHeart('💖')">Ты заставляешь моё сердце улыбаться 💖</li>
+<li class="lang-en" onclick="createHeart('💖')">You’re my favorite hello and hardest goodbye 💌</li>
+<li class="lang-ru" style="display:none" onclick="createHeart('💖')">Ты мое любимое приветствие и самое трудное прощание 💌</li>
+<li class="lang-en" onclick="createHeart('💖')">I love your thoughtful surprises 🎁</li>
+<li class="lang-ru" style="display:none" onclick="createHeart('💖')">Мне нравятся твои внимательные сюрпризы 🎁</li>
+<li class="lang-en" onclick="createHeart('💖')">You make me feel loved every moment ❤️</li>
+<li class="lang-ru" style="display:none" onclick="createHeart('💖')">Ты заставляешь меня чувствовать себя любимой в каждый момент ❤️</li>
+</ol>
+<a href="index.html" class="nav-link lang-en">🏠 Back Home</a>
+<a href="index.html" class="nav-link lang-ru" style="display:none;">🏠 Домой</a>
+</main>
+</body>
+</html>
